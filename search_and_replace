@@ -1,0 +1,11 @@
+#Search and replace all at once 
+:%s/old_text/new_text/g
+
+#Case Insensitive: If you want the search to be case insensitive, add i after the g flag, like this: 
+:%s/old_text/new_text/gi
+
+#Confirmation: If you want to confirm each replacement, remove the g flag, like this: 
+:%s/old_text/new_text/
+
+#Range: You can limit the scope of the find and replace operation by specifying a range before the % symbol. For example, to only search and replace within lines 10 to 20, you would use
+:10,20s/old_text/new_text/g 
