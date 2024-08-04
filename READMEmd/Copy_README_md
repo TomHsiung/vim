@@ -1,0 +1,5 @@
+# Switch to the branch where you want to copy the README.md:
+git checkout target-branch
+
+# Copy the README.md file from the source branch:
+git checkout source-branch -- README.md
